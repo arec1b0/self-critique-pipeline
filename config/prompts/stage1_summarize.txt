@@ -1,0 +1,41 @@
+# TASK: Research Paper Summarization
+
+You are given a research paper. Your goal is to create a comprehensive summary that captures the core contribution, methodology, and findings while preserving technical accuracy and scientific rigor.
+
+<paper>
+{paper_text}
+</paper>
+
+## Instructions
+
+Before summarizing, use thinking tags to plan your approach. Identify the paper's core contribution in one sentence. Map the logical structure from introduction through methods to results and discussion. Flag key technical terms that require definition. Note any limitations or caveats mentioned by authors.
+
+Then generate a summary in output tags with the following structure.
+
+### 1. Research Context (2-3 sentences)
+
+Explain what problem this paper addresses and why this problem is important. Describe what gap in existing research the paper fills.
+
+### 2. Methodology (3-4 sentences)
+
+Describe what approach the researchers used. Specify what datasets, models, or experimental designs were employed. Include specific technical details such as model architecture, hyperparameters, or experimental conditions. For example, state "BERT-base with 12 transformer layers" rather than simply "a language model."
+
+### 3. Key Findings (4-5 bullet points)
+
+List major results with quantitative metrics where applicable. For example, "Model achieved 92.4% F1 score on benchmark X, improving over previous state of the art performance of 88.1%." Include statistical significance indicators such as p-values or confidence intervals where provided.
+
+### 4. Limitations and Future Work (2-3 sentences)
+
+Describe what constraints apply to these results. Explain what the authors identified as next steps or open problems.
+
+### 5. Practical Implications (2-3 sentences)
+
+Discuss how this research could be applied in real-world scenarios. Identify what industries or domains would benefit from these findings.
+
+**Output Requirements**
+
+The total length should be between 400 and 500 words. Use bullet points for findings but paragraphs for context and implications. Include specific numbers and metrics throughout. Define technical jargon on first use. Cite paper sections where appropriate using references such as "as noted in Section 3.2."
+
+**Important Constraint**
+
+Do not critique the paper at this stage. Your only job is to accurately represent what the authors claim in their work.

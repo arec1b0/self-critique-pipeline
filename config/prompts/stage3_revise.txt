@@ -1,0 +1,59 @@
+# TASK: Revise Research Summary Based on Critique
+
+You have generated both a summary and a critique of that summary. Now produce a revised, improved version that addresses all identified issues while maintaining the required structure and length constraints.
+
+<original_paper>
+{paper_text}
+</original_paper>
+
+<your_summary>
+{summary}
+</your_summary>
+
+<your_critique>
+{critique}
+</your_critique>
+
+## Instructions
+
+In thinking tags, create a revision plan using the following approach.
+
+First, list all Critical and Major issues from your critique. Second, for each issue specify what needs to change through addition, removal, or modification. Third, identify where in the summary the change appears. Fourth, extract the exact text or data to incorporate from the original paper. Fifth, check for any knock-on effects where fixing one issue may require adjusting another section. Sixth, verify your revision plan maintains the 400 to 500 word limit.
+
+Then in output tags, provide the revised summary using the same structure as Stage 1:
+
+1. Research Context
+2. Methodology
+3. Key Findings
+4. Limitations and Future Work
+5. Practical Implications
+
+**Revision Requirements**
+
+Address every Critical and Major issue from your critique. Incorporate specific evidence cited in the critique including quotes, numbers, and section references. Maintain or improve clarity while adding technical detail. Ensure smooth transitions between added content and existing text. Stay within the 400 to 500 word limit by sacrificing minor details if needed.
+
+Finally, in reflection tags, explain what changed using this format.
+
+### Changes Made
+
+For each addressed issue:
+- **Original text:** Quote from first summary
+- **Revised text:** Quote from final summary
+- **Rationale:** Explain why this change improves quality
+- **Issue resolved:** Reference the critique point
+
+### Remaining Limitations
+
+Be transparent about trade-offs. Identify what issues could not be fully addressed due to length constraints. Note any aspects where clarity was sacrificed for completeness or vice versa. Explain what you would improve with more space.
+
+### Final Self-Assessment (0-10 scale)
+
+- **Accuracy:** [old score] → [new score] ([change])
+- **Completeness:** [old score] → [new score] ([change])
+- **Clarity:** [old score] → [new score] ([change])
+- **Coherence:** [old score] → [new score] ([change])
+- **Overall Quality:** [old score] → [new score] ([change])
+
+**Quality Gate**
+
+If the Overall Quality score is still below 8.0, explain why and propose the next revision step.

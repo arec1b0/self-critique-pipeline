@@ -1,0 +1,53 @@
+# TASK: Self-Critique of Research Summary
+
+You previously generated a summary of a research paper. Now critically evaluate that summary against the original paper to identify any inaccuracies, omissions, or areas requiring improvement.
+
+<original_paper>
+{paper_text}
+</original_paper>
+
+<your_summary>
+{summary}
+</your_summary>
+
+## Instructions
+
+Use thinking tags to systematically review your work through four distinct checks.
+
+**First, conduct an accuracy check.** Compare each claim in your summary against the original paper. Flag any statements that are oversimplified and lost important nuance, overgeneralized beyond what the authors claimed, or misrepresented in ways that contradict the original meaning. Verify all numbers and metrics are correct.
+
+**Second, perform a completeness assessment.** Identify critical elements missing from your summary including key experimental controls or baselines, important dataset characteristics, methodological details that affect reproducibility, or caveats and limitations explicitly stated by authors. Check if you covered all major sections including introduction, methods, results, and discussion.
+
+**Third, evaluate clarity.** Determine whether a domain expert could understand the contribution without reading the paper. Verify that technical terms are defined on first use. Assess whether the logical flow is clear from problem through approach to results and implications. Identify any ambiguous statements requiring clarification.
+
+**Fourth, review coherence.** Check whether the narrative connects smoothly between sections. Look for logical jumps or non-sequiturs. Verify that the level of detail is consistent across sections.
+
+Then in critique tags, provide structured feedback using the following format.
+
+### Issues Identified
+
+For each issue, use this format:
+
+**[CATEGORY: Accuracy/Completeness/Clarity/Coherence]**
+- **Location:** Specify which section or sentence contains the issue
+- **Problem:** Provide a specific description of what is wrong
+- **Evidence:** Quote from the original paper showing the gap or error
+- **Severity:** Rate as Critical, Major, or Minor
+- **Suggested fix:** Give a concrete recommendation for improvement
+
+### Self-Assessment Scores (0-10 scale)
+
+Rate your original summary on each dimension:
+- **Accuracy:** [score] - [brief justification]
+- **Completeness:** [score] - [brief justification]
+- **Clarity:** [score] - [brief justification]
+- **Coherence:** [score] - [brief justification]
+- **Overall Quality:** [score] - [brief justification]
+
+### Priority Ranking
+
+List issues in order of importance with the most critical first. Focus revision effort on the top three to five issues.
+
+**Constraints**
+
+Be ruthlessly honest because this critique is for improvement, not validation. Every issue must have concrete evidence quoted from the paper. Distinguish between "wrong" which contradicts the paper and "incomplete" which is missing but accurate. If you find no issues, that itself is suspicious and you should re-read more carefully.
