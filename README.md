@@ -28,7 +28,7 @@ The design adheres to SOLID principles through dependency injection, interface s
 
 Clone the repository and navigate to the project directory:
 ```bash
-git clone https://github.com/yourusername/self-critique-pipeline.git
+git clone https://github.com/arec1b0/self-critique-pipeline.git
 cd self-critique-pipeline
 ```
 
